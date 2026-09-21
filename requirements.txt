@@ -1,0 +1,10 @@
+numpy
+pandas
+pyarrow
+av
+opencv-python
+pyrealsense2
+python-can
+tqdm
+pyyaml
+pin
