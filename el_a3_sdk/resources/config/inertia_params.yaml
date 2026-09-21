@@ -1,0 +1,36 @@
+# EL-A3 arm inertia parameters
+# For Pinocchio gravity compensation
+# Fitted by debugger calibration panel
+#
+# Calibration date: 2026-08-19 17:38:57
+# RMSE: 0.2649 Nm
+# R^2: 0.9459
+
+use_calibrated_params: true
+
+inertia_params:
+  L2:
+    mass: 0.8071
+    com: [0.13040206561844736, 0.0, 0.0]
+
+  L3:
+    mass: 0.3033
+    com: [-0.1499905741739913, -0.1, 0.003]
+
+  L4:
+    mass: 0.4364
+    com: [-0.08541120581422477, 0.0022798239182086426, 0.0]
+
+  L5:
+    mass: 0.0026
+    com: [0.004, 0.0, 0.019244449631105186]
+
+  L6:
+    mass: 0.5151
+    com: [0.0, -0.001, -0.054830434177064985]
+
+calibration_info:
+  date: "2026-08-19 17:38:57"
+  num_samples: 20
+  rmse: 0.2649
+  r_squared: 0.9459
